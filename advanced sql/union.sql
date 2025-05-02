@@ -1,5 +1,5 @@
 
--- My Solution
+-- option 1
 WITH 
     skill_info AS (
         SELECT
@@ -60,7 +60,7 @@ WHERE
 
 -- ------------------------------------------------
 
--- Optimized Solution by CHATGPT
+-- option 2
 WITH skill_info AS (
     SELECT
         skills_job_dim.job_id,

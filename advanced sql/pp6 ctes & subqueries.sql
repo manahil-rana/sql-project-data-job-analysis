@@ -1,5 +1,5 @@
 
--- THE WAY I SOLVED IT
+-- option 1
 
 WITH 
     remote_jobs AS (
@@ -44,8 +44,7 @@ LIMIT
 
 
 
--- THE WAY YOUTUBE GUY SOLVED IT
--- more efficient and compact
+-- option 2 - more efficient and compact way
 
 WITH remote_job_skills AS (
     SELECT
